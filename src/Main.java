@@ -6,6 +6,7 @@ public class Main {
         AbrirConta abrirConta = new AbrirConta();
 
         abrirConta.exibir();
+        abrirConta.sacarDinheiro();
 
     }
 }
