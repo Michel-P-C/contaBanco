@@ -27,4 +27,36 @@ public class ContaTerminal {
 
     }
 
+    public int getNumeroConta(){
+        return numeroConta;
+    }
+
+    public void setNumeroConta(int numeroConta){
+        this.numeroConta = numeroConta;
+    }
+
+    public String getAg(){
+        return ag;
+    }
+
+    public void setAg(String ag){
+        this.ag = ag;
+    }
+
+    public String getNome(){
+        return nome;
+    }
+
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+
+    public double getSaldo(){
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+
+    }
 }
